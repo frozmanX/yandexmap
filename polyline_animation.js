@@ -18,8 +18,7 @@ function init(ymaps) {
 [54.9371691,82.8990082] ,
 [54.9372613,82.8987319] ,
 [54.9375705,82.8978146] ,
-[54.9379675,82.8968089] ,
-[54.8264348,82.937666] 
+[54.9379675,82.8968089] 
 
     ], {}, {
         // Задаем цвет.
@@ -51,7 +50,7 @@ function init(ymaps) {
     var firstPoint = new ymaps.Placemark([54.937273,82.8994626], {}, {
         preset: 'islands#redRapidTransitCircleIcon'
     });
-    var secondPoint = new ymaps.Placemark([54.8264348,82.937666] , {}, {
+    var secondPoint = new ymaps.Placemark([54.9379675,82.8968089] , {}, {
         preset: 'islands#blueMoneyCircleIcon'
     });
     var thirdPoint = new ymaps.Placemark([54.9372271,82.899485] , {}, {
